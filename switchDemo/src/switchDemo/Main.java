@@ -8,7 +8,7 @@ public class Main {
 		System.out.println("Notunuzu giriniz(0-100):");
 		char grade;
 		int not = scanner.nextInt();
-		
+
 		if (not <= 100 & not >= 80)
 			grade = 'A';
 		else if (not <= 80 & not >= 70)
@@ -17,10 +17,11 @@ public class Main {
 			grade = 'C';
 		else if (not <= 60 & not >= 50)
 			grade = 'D';
-		else
+		else if (not <= 50 & not >= 0)
 			grade = 'F';
-		
-		
+		else
+			grade = 'G';
+
 		switch (grade) {
 		case 'A':
 			System.out.println("Mukemmel: Gectiniz");
@@ -36,6 +37,9 @@ public class Main {
 			break;
 		case 'F':
 			System.out.println("Malesef: Kaldiniz");
+			break;
+		case 'G':
+			System.out.println("Gecersiz Not Girdiniz");
 			break;
 		}
 	}
