@@ -15,7 +15,7 @@ public class Main {
 			if (sayi2 % j == 0)
 				toplam2 += j;
 		}
-		if (toplam1 == sayi2 & toplam2 == sayi1)
+		if (toplam1 == sayi2 && toplam2 == sayi1)
 			System.out.println("Arkadas sayilar");
 		else
 			System.out.println("Arkadas sayi degiller");
