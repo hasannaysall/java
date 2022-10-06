@@ -13,7 +13,9 @@ public class Main {
 				asalKontrol = 0;
 			}
 		}
-		if (sayi == 1)
+		if (sayi < 1)
+			System.out.println("Gecersiz sayi");
+		else if (sayi == 1)
 			System.out.println("Sayi asal degil");
 		else if (asalKontrol == 1)
 			System.out.println("Sayi asal ");
