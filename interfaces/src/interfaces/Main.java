@@ -3,8 +3,8 @@ package interfaces;
 public class Main {
 
 	public static void main(String[] args) {
-		ICustomerDal customerDal=new OracleCustomerManager();
-		customerDal.add();
+		CustomerManager customerManager = new CustomerManager(new OracleCustomerManager());
+		customerManager.add();
 	}
 
 }

@@ -1,5 +1,5 @@
 package interfaces;
 
 public interface ICustomerDal {
-void add();
+	void add();
 }
