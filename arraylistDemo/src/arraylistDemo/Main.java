@@ -11,13 +11,13 @@ public class Main {
 		sayilar.add(10);
 		sayilar.add("deneme");
 		System.out.println(sayilar.size());//dizide kac eleman olduunu gosterir
-		System.out.println(sayilar.get(0));//dizinin 0. elemaninin ne oldugunu gosteriri
-		sayilar.set(0, 15);//0. eleman 15 olacak
-		sayilar.remove(0);//0. elemani siler
-		sayilar.clear();//tum diziyi siler
-	    for(Object i:sayilar) {//dizideki elemanlari gosteriri
-	    	System.out.println(i);
-	    }
+		System.out.println(sayilar.get(2));//dizinin 0. elemaninin ne oldugunu gosteriri
+		//sayilar.set(0, 15);//0. eleman 15 olacak
+		//sayilar.remove(0);//0. elemani siler
+		//sayilar.clear();//tum diziyi siler
+	    //for(Object i:sayilar) {//dizideki elemanlari gosteriri
+	    	//System.out.println(i);
+	   // }
 	}
 
 }
