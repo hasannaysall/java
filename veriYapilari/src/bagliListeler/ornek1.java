@@ -13,7 +13,7 @@ class dugum {
 public class ornek1 {
 
 	public static void main(String[] Args) {
-		dugum d1 = new dugum(5);
+		dugum d1 = new dugum(6);
 		dugum d2 = new dugum(7);
 		dugum d3 = new dugum(8);
 		d1.ileri = d2;
